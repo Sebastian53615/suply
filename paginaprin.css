@@ -16,7 +16,7 @@ p {
 .header {
     background: #333;
     color: white;
-    padding: 2rem 0;
+    padding: 1rem 0;
     position: fixed;
     left: 0;
     top: 0;
@@ -28,8 +28,8 @@ p {
     text-decoration: none;
 }
 .container{
-    width: 85%;
-    max-width: 850px;
+    width: 95%;
+    max-width: 950px;
     margin: 0 auto;
 }
 
@@ -39,8 +39,9 @@ p {
     align-items: center;
 }
 .logo{
-    letter-spacing: 5px;
+    letter-spacing: 9px;
     font-size: 1.3em;
+    position: 1px 0px 0px 7cm ;
 }
 .main {
     padding-top: 10rem;
