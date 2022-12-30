@@ -27,6 +27,9 @@ p {
     color :white;
     text-decoration:none;
 }
+#registro{
+    background-color: green;
+}
 .container{
     width: 95%;
     max-width: 950px;
