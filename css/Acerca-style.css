@@ -1,0 +1,15 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(17, 17, 17);
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 0;
+}
+.container{
+    width: 95%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.main {
+    padding-top: 10rem;
+}
