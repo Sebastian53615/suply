@@ -4,6 +4,7 @@ body {
     font-size: 1.2em;
     line-height: 1.6em;
     margin: 0;
+    background-color: blueviolet;
 }
 .container{
     width: 95%;
