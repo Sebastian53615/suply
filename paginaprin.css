@@ -1,6 +1,6 @@
 body {
-    font-family:Georgia, 'Times New Roman', Times, serif;
-    color:#333;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(17, 17, 17);
     font-size: 1.2em;
     line-height: 1.6em;
     margin: 0;
@@ -14,18 +14,18 @@ p {
     margin-bottom: 1.6em;
 }
 .header {
-    background: #333;
+    background: rgb(0, 0, 0);
     color: white;
-    padding: 1rem 0;
-    position: fixed;
+    padding: 2rem 0;
+    position:fixed;
     left: 0;
     top: 0;
     width: 100%;
-    height: 0.7cm;
+    height: 1cm;
 }
 .header a{ 
     color :white;
-    text-decoration: none;
+    text-decoration:none;
 }
 .container{
     width: 95%;
@@ -40,8 +40,7 @@ p {
 }
 .logo{
     letter-spacing: 9px;
-    font-size: 1.3em;
-    position: 1px 0px 0px 7cm ;
+    font-size: 0;
 }
 .main {
     padding-top: 10rem;
@@ -61,12 +60,11 @@ p {
     border-radius: 5px;
 }
 .navigacion ul li a:hover {
-    background: #4a4a4a;
-
-
+    background: #292929;
 }
 .footer {
-    background: #f2f2f2;
+    background: #333;
+    color:white;
     width: 100%;
     height: 50px;
     text-align: center;
