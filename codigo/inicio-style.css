@@ -109,11 +109,11 @@ main {
 .about_main{
     padding-top: 80px;
     display: grid;
-    width: 90%;
-    
+    width: 100%;
     margin: 0 auto;
-    gap:1em; 
+    gap:0.8em; 
     overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(290px, auto));
 }
 .about_grafica{
     line-height: 1.7;
@@ -121,11 +121,13 @@ main {
 .about_icons{
     display: grid;
     gap: 1em;
-    justify-items: center;
+    
     width: 100%;
-    height: 70px;
+    height: 60%;
     overflow: hidden;
     margin: 0 auto;
+    border:solid;
+    justify-items: center;
 }
 .about_icon{
     width: 40px;
