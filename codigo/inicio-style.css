@@ -1,0 +1,147 @@
+body {
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color:rgb(17, 17, 17);
+    font-size: 1.2em;
+    line-height: 1.6em;
+    margin: 0;
+}
+.header {
+    background: rgb(0, 0, 0);
+    color: white;
+    padding: 2rem 0;
+    position:relative;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 1cm;
+    opacity: 1;
+}
+.header a{ 
+    color :white;
+    text-decoration:none;
+}
+.registro{
+    display: inline-block;
+   padding: 1px 15px;
+    text-decoration:none;
+    background-color: chartreuse;
+    font-size: 1.7rem;
+    border: 3px solid;
+    border-radius: 20px 20px ; border-color: #000;  
+    text-align: center;
+}
+.container{
+    width: 95%;
+    max-width: 950px;
+    margin: 0 auto;
+}
+.logo-nav-container {
+    display: flex;
+    justify-content: space-between;
+    align-items:inherit;
+}
+.logo{
+    
+}
+main {
+    width: 90%;
+    max-width:none;
+    margin: 0 auto;
+    padding-top: 10rem;
+}
+.navigacion ul {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.navigacion ul li {
+    display: inline-block;
+}
+.navigacion ul li a {
+    display: block;
+    padding: 0.5rem;
+    transition: all 0.4s linear;
+    border-radius: 5px;
+}
+.navigacion ul li a:hover {
+    background: #292929;
+}
+#presentación {
+    font-size: 3rem;
+    line-height: 1em;  
+    text-align: center;
+   color: #fff;
+}
+#presentaciónp{
+    font-size: 1rem;
+    line-height: 1rem;
+    text-align: center;
+    color: rgb(209, 209, 209);
+}
+#presentación::before{
+    content: "";
+    position:absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 115%;
+    background-image: linear-gradient(180deg, #0000008c 0%, #000000 100%),url('../images/computer.png');
+    background-size: cover;
+    clip-path: polygon(0 0, 100% 0, 100% 90%, 51% 95%, 0 90%);
+    z-index: -2;
+}
+.image-home{
+    image-rendering: auto;
+    width: 100%;
+    height: 100%;
+    max-height: 600px; 
+}
+/*about*/
+.about{
+    text-align: center;
+}
+.subtittle{
+    color: #001a49;
+    font-size: 2rem;
+    margin-bottom: 25px;
+
+}
+.about_main{
+    padding-top: 80px;
+    display: grid;
+    width: 100%;
+    margin: 0 auto;
+    gap:0.8em; 
+    overflow: hidden;
+    grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+}
+.about_grafica{
+    line-height: 1.7;
+}
+.about_icons{
+    display: grid;
+    gap: 1em;
+    
+    width: 100%;
+    height: 60%;
+    overflow: hidden;
+    margin: 0 auto;
+    border:solid;
+    justify-items: center;
+}
+.about_icon{
+    width: 40px;
+}
+
+
+
+
+
+.footer {
+    background: #333;
+    color:white;
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    margin-top: 6rem;
+}
