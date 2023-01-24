@@ -2,7 +2,6 @@ body {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     color:rgb(17, 17, 17);
     font-size: 1.2em;
-    line-height: 1.6em;
     margin: 0;
 }
 .header {
@@ -83,6 +82,8 @@ main {
     position:absolute;
     top: 0;
     left: 0;
+    max-width: 100%;
+    min-width: 200px;
     width: 100%;
     height: 115%;
     background-image: linear-gradient(180deg, #0000008c 0%, #000000 100%),url('../images/computer.png');
@@ -110,18 +111,16 @@ main {
     padding-top: 80px;
     display: grid;
     width: 100%;
-    margin: 0 auto;
-    gap:0.8em; 
-    overflow: hidden;
+    margin: auto 0;
     grid-template-columns: repeat(auto-fit, minmax(290px, auto));
+    gap: 10px;
+    
 }
 .about_grafica{
     line-height: 1.7;
 }
 .about_icons{
     display: grid;
-    gap: 1em;
-    
     width: 100%;
     height: 60%;
     overflow: hidden;
@@ -129,19 +128,21 @@ main {
     border:solid;
     justify-items: center;
 }
-.about_icon{
-    width: 40px;
+.fotoderecha{
+    width: 100%;
+    height: 450px;
+    text-align:end;
 }
-
-
-
-
-
-.footer {
+#noble_pintures{
+    height: 450px;
+    min-width: 300px;
+    margin-right: 20px;
+}
+#pie {
     background: #333;
     color:white;
-    width: 100%;
-    height: 50px;
+    width:auto;
+    height:50px;
     text-align: center;
     margin-top: 6rem;
 }
