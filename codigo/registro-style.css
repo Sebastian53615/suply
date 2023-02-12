@@ -60,7 +60,7 @@ form .link {
 
 .boton{
     color: #252525;
-
+    text-decoration: none;
     border: none;
     background-color:#dd242d;
     padding: 10px 15px;
