@@ -1,11 +1,13 @@
 
-let username = document.getElementById('username')
-let password = document.getElementById('password')
+var username = document.getElementById("user");
+var password = document.getElementById("password");
+var buton = document.getElementById("button");
 
 
-function Entrar(){
-
+function entrar(){
     location.href="app.html";
-    setTimeout(Entrar(),5000)
-    
-}
+    console.log(username);
+    console.log(pssword);
+} 
+
+

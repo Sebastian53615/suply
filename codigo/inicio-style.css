@@ -116,7 +116,7 @@ main {
 .about_main{
     padding-top: 80px;
     display:grid;
-    margin: 0 auto;
+    margin:0 0 0 50px;
     grid-template-columns: repeat(auto-fit, minmax(350px, auto));
     gap: 10px;
 }
