@@ -70,3 +70,8 @@ form .link {
 #paginatwon{
     color: aqua;
 }
+#present{
+    height: auto;
+    width: auto;
+    justify-content: end;
+}
