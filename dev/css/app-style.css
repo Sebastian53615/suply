@@ -1,0 +1,43 @@
+.pp{
+    display: block;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 60px;
+    white-space: nowrap;
+    border-right:4px solis ;
+    width: 15ch;
+    animation:typing 3s steps(15),
+    blink .5s infinite step-end alternate;
+    overflow: hidden;
+}
+@keyframes typing {
+    from {width: 0}
+}
+@keyframes blink {
+    50% {border-color: transparent;}
+}
+.yesornot {
+    width: 500px;
+    height: 150px;
+    font-size: 80px;
+    background-color: rgb(143, 47, 234);
+    color: black;
+    transition: 2s;
+    text-decoration: none;
+}
+.yesornot a{
+    width: 500px;
+    height: 150px;
+    font-size: 80px;
+    background-color: rgb(143, 47, 234);
+    color: black;
+    transition: 2s;
+    text-decoration: none;
+}
+.yesornot:hover{
+    width: 500px;
+    height: 150px;
+    font-size: 80px;
+    background-color: rgb(65, 43, 85);
+    margin: auto;
+    gap: 20px;
+}
