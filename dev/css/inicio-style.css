@@ -74,19 +74,34 @@ main {
 }
 #present{
     display: flex;
-    justify-content: space-between;
-    align-items:inherit;
+    justify-content:inherit;
     background-color: greenyellow;
-    
+}
+@media (max-width: 560px){
+    #present{
+        display: block;
+    }
+
 }
 #presentación{
     width: auto;
     height: 450px;
     justify-content: center;
     margin: auto 20px;
+    min-width: 400px;
 }
 #pres{
-    
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: auto;
+}
+#pres img{
+    max-width:800px ;
+    min-width: 400px;
+    min-height: 400px;
+    display:flex;
+    justify-content: center;
 }
 /*about*/
 .about{

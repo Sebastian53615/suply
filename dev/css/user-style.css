@@ -1,14 +1,23 @@
-.target{
+
+.target img{
     justify-content: center;
     display: block;
     align-items: center;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -0%);
 }
 .box{
     display: block;
-    
-    width: 90px;
+    position: relative;
+    left: 35%;
+    transform: translate(-50%, -0%);
+    width: 200px;
 }
 .namess{
     display: inline-flex;
-    justify-content:space-around;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%, -0%);
+    justify-content: center;
 }
