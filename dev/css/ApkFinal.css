@@ -1,0 +1,25 @@
+
+.con{
+    justify-content:space-between ;
+    display:flex;
+    position:relative;
+    align-items: inherit;
+}
+#search{
+    justify-content:center;
+    display:flex;
+    position:relative;
+    align-items: inherit;
+}
+#search input{
+    border-radius:13px 0px 0px 13px;
+    border-right-style: none;
+    border-color:black;
+    height: 27px;
+    
+}
+#search button{
+    border-radius:0px 13px 13px 0px;
+    border-left-style: none;
+    background-color: white;
+}
