@@ -10,7 +10,7 @@ body {
     align-items: center;
     justify-content: center;
     min-height: 100vh;
-    background: linear-gradient(to right, #cb232c, #ce1d61);
+    background: linear-gradient(to right, #1fe7d7, #2bb91e);
 }
 
 form {
@@ -35,7 +35,7 @@ form label {
 
 form label .fa-solid {
     font-size: 20px;
-    color: #cb232c;
+    color: #cb2323;
     margin-right: 10px;
 }
 
@@ -43,7 +43,7 @@ form label input {
     outline: none;
     border: none;
     color: #252525;
-    border-bottom: solid 1px #ce1d61;
+    border-bottom: solid 1px #dd2b2be3;
     padding: 0 5px;
     font-size: 18px;
 }
@@ -62,7 +62,7 @@ form .link {
     color: #252525;
     text-decoration: none;
     border: none;
-    background-color:#dd242d;
+    background-color:#ff0000b0;
     padding: 10px 15px;
     cursor: pointer;
     font-size: 20px;

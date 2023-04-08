@@ -10,8 +10,9 @@ font-family: 'Raleway', sans-serif;
     min-height:650px ;
 
 }
+
 .header {
-    background-color: greenyellow;
+    background-color: #2bb91e;
     color: rgb(0, 0, 0);
     padding: 2rem 0;
     position:relative;
@@ -75,9 +76,16 @@ main {
 #present{
     display: flex;
     justify-content:inherit;
-    background-color: greenyellow;
+    background: linear-gradient(to top, #1fe7d7, #2bb91e);
+
 }
-@media (max-width: 560px){
+#espase{
+    width: 100%;
+    height: 150px;
+    display: inline-flex;
+    background-color: #1fe7d7;
+}
+@media (max-width: 1150px){
     #present{
         display: block;
     }
@@ -108,6 +116,10 @@ main {
     list-style: none;
     text-align: center;
 }
+#interface{
+    background-color: #fafafa;
+    margin: 5px 0px 0px 0px;
+}
 .subtittle{
     color: #001a49;
     font-size: 2rem;
@@ -137,7 +149,7 @@ main {
     border-radius: 15px;
     text-align: center;
     gap: 3px;
-    
+    background-color: #eceaea;
 }
 .noble{
     display: inline-flex;
