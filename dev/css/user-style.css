@@ -1,5 +1,15 @@
-
+html{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    background-color: #e4e4e4;
+}
+button{
+    background-color: #bfbfbf;
+    box-shadow: 3px 3px 15px #333;
+    border: none;
+}
 .target img{
+    box-shadow: 1px 1px 15px #333;
+    border-radius: 70%;
     justify-content: center;
     display: block;
     align-items: center;
@@ -11,7 +21,7 @@
     display: block;
     position: relative;
     left: 35%;
-    transform: translate(-50%, -0%);
+    transform: translateX(-50%);
     width: 200px;
 }
 .namess{
